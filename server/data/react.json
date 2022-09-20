@@ -1,0 +1,75 @@
+[
+    {
+      "Question": "What is JSX?",
+      "Answer": "JSX is a syntax extension to JavaScript. It is used with React to describe what the user interface should look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code."
+    },
+    {
+      "Question": "What is the Virtual DOM?",
+      "Answer": "A lightweight representation of the real DOM in the memory, and that is known as the virtual DOM. When the state of an object changes, virtual DOM changes only that object in the real DOM, rather than updating all the objects."
+    },
+    {
+      "Question": "What is behind React's high performance?",
+      "Answer": "React updates only those components that have changed, rather than updating all the components at once."
+    },
+    {
+      "Question": "Why is there a need for using keys in Lists?",
+      "Answer": "A key is a unique identifier and it is used to identify which items have changed, been updated or deleted from the lists. It also helps to determine which components need to be re-rendered instead of re-rendering all the components every time."
+    },
+    {
+      "Question": "What are the components in React?",
+      "Answer": "Components are the building blocks of any React application, and a single app usually consists of multiple components. A component is essentially a piece of the user interface. It splits the user interface into independent, reusable parts that can be processed separately."
+    },
+    {
+      "Question": "What are props in React?",
+      "Answer": "Props, short for properties, provide a way to pass data from one component to another component. Props are passed to the component in the same way as arguments are passed in a function."
+    },
+    {
+      "Question": "What is useEffect() in React?",
+      "Answer": "useEffect is a React Hook that allows us to perform side effects in your components. Some examples of side effects are: fetching data, directly updating the DOM, and timers. useEffect accepts two arguments."
+    },
+    {
+      "Question":"How many arguments does useEffect accept?",
+      "Answer":"The useEffect Hook accepts two arguments. The first is the function. The second, which is optional, determines when this effect should run."
+    },
+    {
+      "Question": "What is useState() in React?",
+      "Answer": "useState() is a React Hook that allows you to have state variables in functional components. It takes one argument which is the initial state and returns a state value and a function to update it."
+    },
+    {
+      "Question": "How can you declare React Hooks?",
+      "Answer": "import { useState, useEffect } from 'react';"
+    },
+    {
+      "Question": "What are the 3 types of links in React?",
+      "Answer": "All with different purposes, React uses 3 different links: NavLink, Link, a aka The anchor tag."
+    },
+    {
+      "Question": "What is the difference between the NavLink and Link in React?",
+      "Answer": "NavLink is used when you want to highlight the current or active link. This is allowed because NavLink has the activeClassName attribute."
+    },
+    {
+      "Question": "How do you declare the links in React?",
+      "Answer": "import { Link, NavLink } from 'react-router-dom';"
+    },
+    {
+      "Question": "What is the difference between Link/NavLink and navigate?",
+      "Answer": "navigate derived from useNavigate, which is a React Hook, allows one to move between route programatically (e.g., onSubmit)."
+    },
+    {
+      "Question": "What happens when a component state is updated?",
+      "Answer": "Changing the state object causes the component to re-render."
+    },
+    {
+      "Question": "What is the difference between controlled and uncontrolled components?",
+      "Answer": "In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself."
+    },
+    {
+      "Question": "How many phases does a React component lifecycle have?",
+      "Answer": "Each component in React has a lifecycle which you can monitor and manipulate during its three main phases. These are: Mounting, Updating, and Unmounting."
+    },
+    {
+      "Question": "What is the best web app built with React out there?",
+      "Answer": "T-dogs @ https://t-dogs.netlify.app/"
+    }
+  ]
+  

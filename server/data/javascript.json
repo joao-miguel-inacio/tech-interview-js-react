@@ -1,0 +1,74 @@
+[
+  {
+    "Question": "Why do you need strict mode?",
+    "Answer": "Strict mode is useful to write 'secure' JavaScript by notifying 'bad syntax' into real errors. For example, it eliminates accidentally creating a global variable by throwing na error and also throws an error for assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object."
+  },
+  {
+    "Question": "What is the purpose of the array slice method?",
+    "Answer": "The slice() method returns the selected elements in an array as a new array object. It selects the elements starting at the given start argument, and ends at the given optional end argument without including the last element. If you omit the second argument then it selects till the end."
+  },
+  {
+    "Question": "What are JavaScript Data Types?",
+    "Answer": "Number, String, Boolean, Object, Undefined"
+  },
+  {
+    "Question": "What is the use of isNaN function?",
+    "Answer": "isNan function returns true if the argument is not a number; otherwise, it is false."
+  },
+  {
+    "Question": "Why do we say JavaScript is a single-threated language?",
+    "Answer": "Only one block of code is executed at the time."
+  },
+  {
+    "Question": "Is Javascript Synchronous or Asynchronous?",
+    "Answer": "The code gets executed line by line, from top to bottom. In short, synchronous means the operation needs to be executed in a certain order, and each operation has to wait for the previous one to complete. JavaScript is synchronous with asynchronous behaviours."
+  },
+  {
+    "Question": "What is the difference between “==” and “===”?",
+    "Answer": "“==” checks only for equality in value, whereas “===” is a stricter equality test and returns false if either the value or the type of the two variables are different."
+  },
+  {
+    "Question":"What do you mean by NULL in Javascript?",
+    "Answer":"The NULL value is used to represent no value or no object. It implies no object or null string, no valid boolean value, no number, and no array object."
+  },
+  {
+    "Question": "What a pop() method in JavaScript is?",
+    "Answer": "The pop() method is similar to the shift() method, but the difference is that the Shift method works at the array’s start. The pop() method takes the last element off of the given array and returns it. The array on which it is called is then altered."
+  },
+  {
+    "Question": "What boolean operators can be used in JavaScript?",
+    "Answer": "The ‘And’ Operator (&&), ‘Or’ Operator (||), and the ‘Not’ Operator (!) can be used in JavaScript."
+  },
+  {
+    "Question": "What is the role of break and continue statements?",
+    "Answer": "The break statement is used to come out of the current loop. In contrast, the continue statement continues the current loop with a new recurrence."
+  },
+  {
+    "Question": "What are the main types of Loops in Javascript?",
+    "Answer": "for loop, for/in a loop, while loop, do…while loop, forEach"
+  },
+  {
+    "Question": "What are the main JavaScript advanced array methods?",
+    "Answer": "map, filter, sort, reduce"
+  },
+  {
+    "Question": "How would you explain the map() method?",
+    "Answer": "The map() method creates a new array populated with the results of calling a provided function on every element in the calling array."
+  },
+  {
+    "Question": "How would you explain the filter() method?",
+    "Answer": "The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function."
+  },
+  {
+    "Question": "How would you explain the sort() method?",
+    "Answer": "The sort() method sorts the elements of an array in place and returns the reference to the same array, now sorted. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values."
+  },
+  {
+    "Question": "How would you explain the filter() method?",
+    "Answer": "The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function."
+  },
+  {
+    "Question": "How would you explain the reduce() method?",
+    "Answer": "The reduce() method executes a user-supplied 'reducer' callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value."
+  }
+]
